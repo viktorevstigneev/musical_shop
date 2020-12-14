@@ -1,0 +1,57 @@
+.story{
+	width: 100%;
+	color: #413d4b;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+}
+.story__container {
+	padding: 67px 20px 79px;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 980px;
+	display: flex;
+	justify-content: space-between;
+}
+.story__title {
+	color: #413d4b;
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.story__inscription {
+	font-size: 14px;
+	color:grey;
+}
+.story__content {
+	width: 100%;
+	max-width: 556px;
+	padding: 0 15px;
+}
+.story__link {
+	padding: 9px 14px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: #00e0d0;
+	border: 1px solid #00e0d0;
+}
+.story__link:hover {
+	background: #04bbae;
+	color: white;
+	border-color: white;
+}
+
+@media (max-width: 768px) {
+	.story__container{
+		padding: 67px 20px 79px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		max-width: 980px;
+		justify-content: space-between;
+	}
+	.story__image{
+		display: block;
+		margin: 0 auto;
+	}
+}

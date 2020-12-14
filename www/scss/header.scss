@@ -1,0 +1,147 @@
+
+.header {
+	width: 100%;
+	background: linear-gradient(rgba(7, 4, 90, 0.486),rgba(9, 9, 48, 0.623)), url('../img/bg2.jpg') 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	color: #fff;
+	
+}
+.header__container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 15px 20px;
+}
+
+.header__navbar {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 15px 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__list {
+	width: 600px;
+	max-width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav__item {
+	margin: 0;
+}
+.nav__item a {
+	color: #fff;
+	font-family: 'Roboto',sans-serif;
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.nav__item a:hover {
+	color:#07c8c0;
+}
+.header__title {
+	padding-bottom: 24px;
+	color: #fff;
+	font-weight: 900;
+	font-size: 32px;
+	text-align: center;
+}
+.header__title:after{
+	content: "";
+	display: block;
+	margin: 25px auto 0;
+	width: 50px;
+	height: 1px;
+	background: #00e0d0;
+}
+.header__inscription {
+	width: 100%;
+	max-width: 771px;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 24px;
+	margin: 0 auto;
+	padding-bottom: 59px;
+	text-align: center;
+}
+.header__content {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 143px 20px 55px;
+	text-align: center;
+}
+.header__link {
+	display: block;
+	width: 150px;
+	padding: 15px;
+	margin: 0 auto;
+	margin-top: 53px;
+	border: 1px solid #00e0d0;
+	text-transform: uppercase;
+	color:#00e0d0;
+	transition: .4s;
+}
+
+.header__link:hover {
+	background: #04bbae;
+	color: white;
+	border-color: white;
+
+}
+
+.slider {
+	margin: 0 auto;
+	margin-top: 127px;
+	display: flex;
+	width: 80px;
+	justify-content: space-between;
+	padding: 0;
+	padding-bottom: 70px;
+}
+.slider__item {
+	width: 8px;
+	height: 8px;
+	background: none;
+	border-radius: 100px;
+	border: 2px solid white;
+	transition: .2s;
+}
+.slider__item:hover {
+	background: #04bbae;
+	border-color: #04bbae;
+
+}
+
+@media (max-width: 768px) {
+	.nav__list {
+		width: 100%;
+		max-width: 600px;
+		display: block;
+		text-align: center;
+	}
+	.header__navbar {
+		max-width: 400px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 15px 20px;
+		display:block;
+	}
+	.header__logo{
+		display: block;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 320px) {
+	.header__navbar{
+		display: block;
+	}
+	.nav__list {
+		max-width: 200px;
+		display: block;
+		text-align: center;
+	}
+}

@@ -1,0 +1,64 @@
+
+.testimonials{
+	width: 100%;
+	background-size: cover;
+	background: url('../img/workers.png') no-repeat;
+}
+
+.testimonials__container{
+	width: 100%;
+	max-width: 815px;
+	padding: 70px 20px 80px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.testimonials__title{
+	font-size: 100px;
+	line-height: 22px;
+	margin: 20px 0;
+	color: #fff;
+
+}
+
+.testimonials__text{
+	color: #fff;
+	}
+.testimonials__description{
+	color: #fff;
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 43px;
+	color: #fff;
+}
+
+.testimonials__name{
+	font-weight: 900;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.testimonials__position{
+	font-weight: 900;
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.testimonials__images{
+	width: 300px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-around;
+	
+}
+
+.testimonials__image{
+	width: 45px;
+	height: 45px;
+	transition: 1s;
+}
+
+.testimonials__image:hover{
+	transform: scale(1.1);
+}
+
